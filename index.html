@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HomeWork_1</title>
+</head>
+<body>
+    <header id="header">
+        <p>Header</p>
+        <nav class="navbar">
+            <ul>
+                <!-- link to another site -->
+                <li><a href="https://www.google.com">Google</a></li>
+                <!-- link to anchor page  -->
+                <li><a href="pages/home.html">Home Page (Another Page)</a></li>
+                <!-- link to a page on the same site -->
+                <li><a href="#footer">Footer Page</a></li>
+                <!-- link that open link in new tab -->
+                <li><a href="https://www.google.com" target="_blank">Google New Page</a></li>
+            </ul>
+        </nav>
+    </header>
+    <footer id="footer">
+        <p>Footer</p>
+        <nav class="navbar">
+            <ul>
+                <!-- link that dials a number -->
+                <li><a href="tel:5352723705">Call Me</a></li>
+                <!-- link that run js -->
+                <li><a onclick="jsfun()" href="#" >Alert Js Function</a></li>
+                <!-- link that run email client -->
+                <li><a href="mailto:beraaceze@gmail.com">Mail Me</a></li>
+                <!-- go back to header -->
+                <li><a href="#header">Header Page</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<script>
+
+function jsfun() {
+    alert("Hello in JavaScript ")
+}
+    
+</script>
+</html>
